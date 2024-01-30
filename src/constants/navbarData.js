@@ -12,6 +12,8 @@ const NAV__ITEMS = [
       { name: "About Us", path: "/about-us" },
       { name: "Vision & Mission", path: "/vision-mission" },
       { name: "Principal's Message", path: "/principal-message" },
+      { name: "Board Of Members", path: "/Board-Of-Members" },
+      { name: "About Chairperson", path: "/Chairperson" },
       { name: "Why Choose Us", path: "/why-choose-us" },
       { name: "College Development Committee", path:"/committee"}
     ],
@@ -50,13 +52,7 @@ const NAV__ITEMS = [
   {
     isDropDown: false,
     name: "Notice",
-    dropDownItems: [
-      { name: "Admission", path: "#" },
-      { name: "Exam", path: "#" },
-      { name: "Class", path: "#" },
-      { name: "Event", path: "#" },
-      { name: "Programs", path: "#" },
-    ],
+    path: "/Notice",
   },
   {
     isDropDown: true,
@@ -69,19 +65,18 @@ const NAV__ITEMS = [
     ],
   },
   {
-    isDropDown: false,
+    isDropDown: true,
     name: "Gallery",
-    path: "/gallery-page",
+    dropDownItems: [
+      { name: "School Photos", path: "/photos" },
+      { name: "School Videos", path: "/video" },
+      { name: "Events Photos", path: "/event-photos" },
+    ],
   },
   {
-    isDropDown: true,
-    name: "Feedback",
-    dropDownItems: [
-      { name: "Student", path: "/feedback/student" },
-      { name: "College", path: "/feedback/college" },
-      { name: "Class", path: "/feedback/class" },
-      { name: "Event", path: "/feedback/Event" },
-    ],
+    isDropDown: false,
+    name: "Contact us",
+    path:"/Contact",
   },
 ];
 
