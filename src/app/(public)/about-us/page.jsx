@@ -129,22 +129,7 @@ const AboutUs = () => {
           vocational subjects.
         </p>
 
-        <div className="max-w-full">
-          <Heading2 headingText={"Facility"} />
-          <div className="flex gap-4 flex-wrap">
-            {FACILITY_KEYWORDS.map((keyword, index) => (
-              <span
-                className="py-2 px-4 bg-gray-300 font-medium rounded-sm"
-                key={index}
-              >
-                {keyword}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* ====== Courses We Offer ====== */}
-        <CoursesWeOffer />
+        
 
         {/* ====== Get In Touch ====== */}
         <div className="max-w-fit invert filter">

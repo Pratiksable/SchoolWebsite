@@ -16,7 +16,7 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 // Import data from navbarData.js
-import NAV__ITEMS from "./navbarData";
+import NAV__ITEMS from "../../../constants/navbarData";
 
 const Navbar = () => {
   const [navbarVisible, setNavbarVisible] = useState(false);
