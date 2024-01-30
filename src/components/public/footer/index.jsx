@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import GoogleMap from "./GoogleMap";
 import GetInTouch from "./GetInTouch";
 import CopyWriteSection from "./CopyWriteSection";
-import logo from '@images/logo.jpg'
 const Footer = () => {
   return (
     <footer className={`${styles.footer} mt-4 px-3 overflow-hidden`}>
