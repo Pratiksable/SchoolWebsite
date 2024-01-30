@@ -1,22 +1,22 @@
 import Image from "next/image";
-import Button from "@components/Button";
 import Link from "next/link";
-import logo from 'src/images/Logo.jpg'
+import logo from '@images/logo.jpg'
 
 const LogoAndInfo = () => {
   return (
-    <div className="w-full py-2 px-4">
-      <div className="flex justify-between max-w-screen-xl items-center mx-auto w-full">
+    <div className="w-full py-2 px-4 ">
+      <div className="flex items-center">
         <Link href={'/'}>
-          <Image
+          <Image className="rounded-[40px]"
             src={logo}
-            alt="Markham college of commerce"
+            alt="Government PU college"
             width={150}
             height={100}
           />
         </Link>
-        <div className="hidden md:block">
-          <Button href={'/student/login'} text={'Log In'}/>
+        <div>
+          <p className="font-serif font-extrabold ml-5 md:text-6xl text-xs">GOVERNMENT PU COLLEGE</p>
+          <p className="text-center font-serif md:text-4xl font-bold text-xs">RAJANAKUNTE</p>
         </div>
       </div>
     </div>

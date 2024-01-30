@@ -62,12 +62,11 @@ const NAV__ITEMS = [
   },
   {
     isDropDown: true,
-    name: "Feedback",
+    name: "Deparment",
     dropDownItems: [
-      { name: "Student", path: "/feedback/student" },
-      { name: "College", path: "/feedback/college" },
-      { name: "Class", path: "/feedback/class" },
-      { name: "Event", path: "/feedback/Event" },
+      { name: "PU College", path: "/pu-college" },
+      { name: "High School", path: "/high-school" },
+      { name: "Primary School", path: "/primary-school" },
     ],
   },
 ];

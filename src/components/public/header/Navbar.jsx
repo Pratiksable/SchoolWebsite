@@ -63,7 +63,6 @@ const Navbar = () => {
 
         {/* ==== This div display only in small screen ===== */}
         <div className="md:hidden mt-7 flex justify-center w-full flex-col items-center gap-5">
-          <Button text={"Log In"} href={"/student/login"} />
           <div className="text-white">
             <SocialMediaLink />
           </div>

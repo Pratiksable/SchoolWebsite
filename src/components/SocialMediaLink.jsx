@@ -10,6 +10,12 @@ const SocialMediaLink = () => {
       <a className="mx-3" href="http://www.twitter.com/mcchzb" target="_blank">
         <FontAwesomeIcon icon={faTwitter} />
       </a>
+      <a className="mx-3" href="http://www.twitter.com/mcchzb" target="_blank">
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
+      <a className="mx-3" href="http://www.twitter.com/mcchzb" target="_blank">
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
     </>
   );
 };

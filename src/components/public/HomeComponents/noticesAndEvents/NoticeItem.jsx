@@ -19,16 +19,19 @@ const Notice = ({
         <FontAwesomeIcon icon={faCalendarDays} />
         <span>{date}</span>
         <span>|</span>
-        <a
+
+        {/* downlaod button if require */}
+        
+        {/* <Link
           className="bg-blue-700 duration-500 hover:bg-blue-900 py-1 px-2 text-white rounded-full text-xs"
           href={downloadLink}
         >
           Download
-        </a>
+        </Link> */}
       </p>
       <p className="text-gray-700">{description}</p>
-      <Link className="text-blue-800" href={detailsLink}>
-        Read More &rarr;
+      <Link className="text-blue-800" href={detailsLink} target="_blank">
+       View &rarr;
       </Link>
     </div>
   );

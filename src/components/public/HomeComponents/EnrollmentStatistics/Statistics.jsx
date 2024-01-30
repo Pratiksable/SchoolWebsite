@@ -73,9 +73,8 @@ const Statistics = ({text, number }) => {
 
   return (
     <div ref={counterRef} className="flex flex-col justify-center items-center">
-      <p className="text-6xl font-bold mx-1">{counter}</p>
+      <p className="text-6xl font-bold mx-1">{counter}+</p>
       <span className=" text-slate-500 text-center">
-        Plus
         <br />
         {text}
       </span>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image3 from 'src/images/Picture1.jpg'
+import image3 from '@images/Picture1.jpg'
 export const metadata = {
   title: "Vision and Mission - Markham College of Commerce, Hazaribagh",
   description:

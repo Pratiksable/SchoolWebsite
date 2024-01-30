@@ -2,7 +2,7 @@ import Heading2 from "@components/Heading2";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
-import image1 from 'src/images/Picture1.jpg'
+import image1 from '@images/Picture1.jpg'
 const Gallery = () => {
   return (
     <section className="my-6">

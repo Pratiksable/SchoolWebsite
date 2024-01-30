@@ -6,9 +6,9 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Heading2 from "@components/Heading2";
-import principles1 from 'src/images/Picture3.jpg'
-import principles2 from 'src/images/Picture4.jpg'
-import principles3 from 'src/images/Picture5.jpg'
+import principles1 from '@images/Picture3.jpg'
+import principles2 from '@images/Picture4.jpg'
+import principles3 from '@images/Picture5.jpg'
 
 // Rest of the component...
 
@@ -87,8 +87,8 @@ const PrincipleMsg = () => {
 
       {/* Add navigation buttons for switching principles */}
       <div className="flex justify-center mt-4">
-      <button onClick={handlePrevPrinciple} className="mr-2">Previous</button>
-  <button onClick={handleNextPrinciple} className="ml-2">Next</button>
+      <button onClick={handlePrevPrinciple} className="mr-2 bg-orange-500 rounded-lg p-2">{"<"}---Previous</button>
+  <button onClick={handleNextPrinciple} className="mr-2 bg-orange-500 rounded-lg p-2">Next---{">"}</button>
 
       </div>
     </section>

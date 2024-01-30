@@ -9,12 +9,12 @@ const Notices = () => {
   //TODO: fetch notices form database
   const notices = [
     {
-      category: "Exam",
+      category: "RAGHAV",
       title: "Sem IV external exam start from 04 august 2023",
       date: "14 June 2023",
       description: "Final merit list of BCA admission 2023-2026 is release",
-      downloadLink: "/notice/download",
-      detailsLink: "",
+      downloadLink: "https://drive.google.com/file/d/1y_wyyWWwSZStS27NYFe4pggiPRzQDR-u/view?usp=sharing",
+      detailsLink: "https://drive.google.com/file/d/1y_wyyWWwSZStS27NYFe4pggiPRzQDR-u/view?usp=sharing",
     },
     {
       category: "Admission",

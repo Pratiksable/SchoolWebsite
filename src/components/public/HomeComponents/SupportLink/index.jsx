@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 import Heading2 from "@components/Heading2";
-import karnatakaLogo from 'src/images/karnataka_govt_logo.png'
+import karnatakaLogo from '@images/karnataka_govt_logo.png'
 const SupportLink = () => {
   const links = [
     {
