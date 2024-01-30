@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from '@images/logo.jpg'
 
 const LogoAndInfo = () => {
   return (
@@ -8,7 +7,7 @@ const LogoAndInfo = () => {
       <div className="flex items-center">
         <Link href={'/'}>
           <Image className="rounded-[40px]"
-            src={logo}
+            src="/images/Logo.jpg"
             alt="Government PU college"
             width={150}
             height={100}

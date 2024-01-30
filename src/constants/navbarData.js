@@ -48,7 +48,7 @@ const NAV__ITEMS = [
     ],
   },
   {
-    isDropDown: true,
+    isDropDown: false,
     name: "Notice",
     dropDownItems: [
       { name: "Admission", path: "#" },

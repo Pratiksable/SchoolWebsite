@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="col-span-3">
           <Image
             className="max-w-full invert self-center mx-auto"
-            src={logo}
+            src="/images/Logo.jpg"
             alt="logo"
             height={150}
             width={300}
