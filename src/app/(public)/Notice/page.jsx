@@ -1,9 +1,9 @@
 import NoticesAndEvents from "@/components/public/HomeComponents/noticesAndEvents/Index";
 
 export const metadata = {
-  title: "Facilities - Markham College of Commerce",
+  title: "Notice - The Government PU college, Rajanakunte",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "lorem",
 };
 
 const Notice = () => {

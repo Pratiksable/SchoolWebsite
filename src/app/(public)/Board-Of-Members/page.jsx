@@ -4,6 +4,11 @@ import React from "react";
 import Heading2 from "@/components/Heading2";
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 
+export const metadata = {
+  title: "Board Of Members - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 export default function App() {
   const list = [
     {

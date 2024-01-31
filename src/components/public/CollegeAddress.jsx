@@ -8,10 +8,10 @@ const CollegeAddress = () => {
       <div>
         <Image
           className="border-2 border-primary-regular rounded-sm shadow-md mx-auto"
-          src={"/mcc-icon.png"}
+          src="/images/Logo.jpg"
           width={150}
           height={150}
-          alt="Markham college of commerce"
+          alt="The Government PU college, Rajanakunte"
         />
       </div>
       <div className="flex-1">

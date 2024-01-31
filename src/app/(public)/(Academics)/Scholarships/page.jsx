@@ -3,7 +3,11 @@ import React from 'react';
 import Heading2 from "@/components/Heading2";
 
 import { scholarshipData } from '@/constants/scholarshipData'; // Adjust the path accordingly
-
+export const metadata = {
+  title: "Scholarships - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 const ScholarshipPage = () => {
   return (
     <div className="max-w-screen-lg mx-auto py-8 px-4">

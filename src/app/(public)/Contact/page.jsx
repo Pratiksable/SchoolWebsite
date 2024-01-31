@@ -1,7 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Heading2 from "@components/Heading2";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
-
+export const metadata = {
+  title: "Contact us - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 const ContactUs = () => {
   const address = "5HF5+FMP, Unnamed Road, Rajanukunte, Bangalore, Karnataka 560064";
 
@@ -26,7 +30,7 @@ const ContactUs = () => {
       </div>
 
       {/* ======== Contact Details ====== */}
-      <div className='flex flex-row gap-3'>
+      <div className='flex flex-col sm:flex-row gap-3'>
         {contactDetails.map((contact) => (
           <div key={contact.category} className="bg-white p-4 rounded-md mb-4 shadow-md">
             <FontAwesomeIcon

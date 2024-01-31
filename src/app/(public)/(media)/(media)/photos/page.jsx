@@ -14,7 +14,11 @@ const PhotosData = [
   "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp",
   // ... Add more image URLs here
 ];
-
+export const metadata = {
+  title: "Photos - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 const Photos = () => {
   return (
     <section className="my-6">

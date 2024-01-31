@@ -2,9 +2,9 @@ import Heading2 from "@/components/Heading2";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Fee Structure - Markham College of Commerce",
+  title: "Fee-Structure - The Government PU college, Rajanakunte",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "lorem",
 };
 
 const FeeStructure = () => {

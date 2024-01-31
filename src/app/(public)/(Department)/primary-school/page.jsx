@@ -12,7 +12,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-
+export const metadata = {
+  title: "Primary-School - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 const Primary = () => {
   const COLLEGE_RECOGNITION = [
     {

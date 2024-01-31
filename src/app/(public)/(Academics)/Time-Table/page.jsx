@@ -2,7 +2,11 @@
 import React from 'react';
 import Heading2 from "@/components/Heading2";
 import { timetableData } from '@/constants/timetableData'; // Adjust the path accordingly
-
+export const metadata = {
+  title: "Time-Table - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 const Timetable = () => {
   return (
     <div className="max-w-screen-lg mx-auto py-4 px-2">

@@ -10,7 +10,11 @@ import principles1 from '@images/Picture3.jpg'
 import principles2 from '@images/Picture4.jpg'
 import principles3 from '@images/Picture5.jpg'
 
-// Rest of the component...
+export const metadata = {
+  title: "Chaiperson - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 
 
 const Chairperson = () => {

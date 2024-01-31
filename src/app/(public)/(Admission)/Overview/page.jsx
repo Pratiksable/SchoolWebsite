@@ -4,9 +4,9 @@ import CoursesWeOffer from "@/components/public/CoursesWeOffer";
 import GetInTouch from "@/components/public/footer/GetInTouch";
 
 export const metadata = {
-  title: "Overview - Markham College of Commerce",
+  title: "Overview - The Government PU college, Rajanakunte",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "lorem",
 };
 
 const Overview = () => {

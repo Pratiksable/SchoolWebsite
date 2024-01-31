@@ -1,6 +1,10 @@
 import Heading2 from "@components/Heading2";
 import Image from "next/image";
-
+export const metadata = {
+  title: "Videos - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 
 // Sample gallery data with image URLs
 const PhotosData = [

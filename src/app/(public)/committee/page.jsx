@@ -8,7 +8,11 @@ import Image from "next/image";
 import Heading2 from "@components/Heading2";
 import { committieData } from "@/constants/CommittieData";
 // Rest of the component...
-
+export const metadata = {
+  title: "College Development Committee - The Government PU college, Rajanakunte",
+  description:
+    "lorem",
+};
 
 const PrincipleMsg = () => {
   const [currentPrincipleIndex, setCurrentPrincipleIndex] = useState(0);

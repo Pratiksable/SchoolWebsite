@@ -1,9 +1,9 @@
 import Image from "next/image";
 import image3 from '@images/Picture1.jpg'
 export const metadata = {
-  title: "Vision and Mission - Markham College of Commerce, Hazaribagh",
+  title: "Vision & Mission - The Government PU college, Rajanakunte",
   description:
-    "Discover the legacy of education and excellence at Markham College of Commerce, Hazaribagh. Our vision is to empower future leaders through comprehensive commerce education, fostering ethical values and critical thinking. Explore our rich history, from our founding in 1974 by B. D. Jaiswal to becoming a hub of academic growth. Join us in shaping a brighter future for students in Hazaribagh and beyond.",
+    "lorem",
 };
 
 const VisionMission = () => {

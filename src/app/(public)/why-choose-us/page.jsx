@@ -4,9 +4,9 @@ import Highlights from "@/components/public/HomeComponents/highlights/Index";
 import GetInTouch from "@/components/public/footer/GetInTouch";
 
 export const metadata = {
-  title: "Why Join Us - Markham College of Commerce, Hazaribagh",
+  title: "Why Join Us - The Government PU college, Rajanakunte",
   description:
-    "Dear students, welcome to our college&lsquo;s virtual space. Here, we strive to create an environment that nurtures your dreams and empowers you to excel. Embrace opportunities, ignite your passion, and together lsquo;s embark on a transformative journey of knowledge, growth, and success. Best wishes for an enriching academic experience!",
+    "lorem",
 };
 
 const WhyChooseUs = () => {
