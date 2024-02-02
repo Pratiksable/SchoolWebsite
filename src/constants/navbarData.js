@@ -54,16 +54,16 @@ const NAV__ITEMS = [
     name: "Notice",
     path: "/Notice",
   },
-  {
-    isDropDown: true,
-    name: "Campus",
-    dropDownItems: [
-      { name: "NCC", path: "/campus/ncc" },
-      { name: "United Bank", path: "/campus/united-bank" },
-      { name: "Csp", path: "/campus/csp" },
-      { name: "Canting", path: "/campus/canting" },
-    ],
-  },
+  // {
+  //   isDropDown: true,
+  //   name: "Campus",
+  //   dropDownItems: [
+  //     { name: "NCC", path: "/campus/ncc" },
+  //     { name: "United Bank", path: "/campus/united-bank" },
+  //     { name: "Csp", path: "/campus/csp" },
+  //     { name: "Canting", path: "/campus/canting" },
+  //   ],
+  // },
   {
     isDropDown: true,
     name: "Gallery",

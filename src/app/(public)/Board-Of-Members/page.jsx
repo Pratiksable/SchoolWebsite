@@ -2,69 +2,43 @@
 
 import React from "react";
 import Heading2 from "@/components/Heading2";
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import Image from "next/image";
+import { BOM_list } from "@/constants/BOM_Data";
+
 
 export const metadata = {
   title: "Board Of Members - The Government PU college, Rajanakunte",
   description:
     "lorem",
 };
-export default function App() {
-  const list = [
-    {
-      title: "Shri. M Manjunath ",
-      img: "images/members/manju.jpg",
-      Education: "Edu - BA",
-    },
-    {
-      title: "Shri Shivanna N C",
-      img: "images/members/shivanna.png",
-      Education: "Edu – MA, M.Phil Rtd.Principal",
-    },
-    {
-      title: "Shri.M MohanKumar",
-      img: "images/members/Mohan.png",
-      Education: "Edu - Dip civil",
-    },
-    {
-      title: "Shri M Thimma Reddy",
-      img: "images/members/thimma.png",
-      Education: "Edu - BSC, B.Ed",
-    },
-  ];
+export default function BOM() {
+  
 
   return (
-    <>
-      <br />
+    <div>
       <Heading2 headingText={"Board Members"} />
-
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 justify-center">
-        {list.map((item, index) => (
-          <div key={index} className="w-full mb-4">
-            <Card
-              shadow="sm"
-              isPressable
-              onPress={() => console.log("item pressed")}
-            >
-              <CardBody className="overflow-visible p-0">
+      <div className="flex flex-col sm:flex-row justify-center ">
+        {BOM_list.map((item, index) => (
+          <div key={index}>      
+              <div className="overflow-visible  bg-gray-500 p-1 rounded-lg m-5 items-start">
                 <Image
                   shadow="sm"
-                  radius="lg"
-                  width="100%"
+                  width={300}
+                  height={100}
                   alt={item.title}
-                  className="w-full object-cover h-[350px]"
+                  className="w-full object-cover h-[400px]"
                   style={{ objectFit: "cover" }} // Added style for object-fit
                   src={item.img}
+                  
                 />
-              </CardBody>
-              <CardFooter className="text-small justify-between">
-                <b>{item.title}</b>
+              </div>
+              <div className="text-small flex flex-col items-center">
+                <p className="font-bold">{item.title}</p>
                 <p className="text-default-500">{item.Education}</p>
-              </CardFooter>
-            </Card>
+              </div>
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }

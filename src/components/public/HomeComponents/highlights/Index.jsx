@@ -14,7 +14,7 @@ const Highlights = () => {
     <section className="my-4 px-3 py-4 bg-blue-950 text-white">
       <div className="max-w-screen-xl mx-auto my-4">
         <Heading2 headingText={"Why The Government PU college,Rajanakunte"} />
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3  text-justify">
           <Highlight
             icon={faGraduationCap}
             heading={"UGC Recog. Program"}
