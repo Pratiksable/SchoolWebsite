@@ -1,7 +1,3 @@
-
-
-
-
 export const committieData = [
   {
     name: "President – Shri S R Vishwanath",

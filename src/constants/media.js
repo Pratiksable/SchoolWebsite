@@ -1,5 +1,6 @@
 
-// Sample gallery data with image URLs
+// GALLERY -> SCHOOL VIDEO
+// VIDEO GALLERY CAN BE ADDED FROM HERE 
 export const VideoData = [
     "https://www.youtube.com/embed/C1rDe3DB8v0",
     "https://www.youtube.com/embed/PukZY2tpOXM",
@@ -21,7 +22,8 @@ export const VideoData = [
 
 
   
-// Sample gallery data with image URLs
+// GALLERY -> SCHOOL PHOTO
+//MAIN GALLERY PHOTOS CAN BE ADDED FROM HERE 
 export const PhotosData = [
     "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp",
     "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp",
@@ -36,7 +38,8 @@ export const PhotosData = [
   
 
   
-// Sample gallery data with image URLs
+// GALLERY -> EVENT PHOTO
+//EVENT PHOTOS CAN BE ADDED FROM HERE 
 export const EventData = [
     "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp",
     "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp",

@@ -1,7 +1,8 @@
 // Timetable.js
-import React from 'react';
+import React from "react";
 import Heading2 from "@/components/Heading2";
-import { timetableData } from '@/constants/timetableData';
+import { timetableData } from "@/constants/timetableData";
+import Image from "next/image";
 
 export const metadata = {
   title: "Time-Table - The Government PU college, Rajanakunte",
@@ -10,12 +11,18 @@ export const metadata = {
 
 const Timetable = () => {
   return (
-    <div className="max-w-screen-lg mx-auto py-4 px-2">
+    <div className="max-w-screen-lg mx-auto py-2 px-2">
       <Heading2 headingText={"School Timetable"} />
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {timetableData.map((day, index) => (
-          <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-            <img src={day.image} alt={`Timetable for ${day.day}`} className="w-full h-auto" />
+          <div key={index} className="flex h-4/6 w-4/6 mb-5 rounded-xl p-2 bg-slate-400 flex-row ml-5 hover:scale-125">
+            <Image
+              src={day.image}
+              width={400}
+              height={400}
+              alt={`Timetable for ${day.day}`}
+              className={`w-full h-auto object-cover`}
+            />
           </div>
         ))}
       </div>

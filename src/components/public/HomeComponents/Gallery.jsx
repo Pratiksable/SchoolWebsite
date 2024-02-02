@@ -2,7 +2,7 @@ import Heading2 from "@components/Heading2";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
-import image1 from '@images/Picture1.jpg'
+import image1 from "@images/Picture1.jpg";
 const Gallery = () => {
   return (
     <section className="my-6">
@@ -32,7 +32,7 @@ const Gallery = () => {
                 width={250}
                 height={150}
                 src={
-" https://drive.google.com/uc?export=view&id=11HnX1eaYdVMlOIuSj7E8XGZJ9meyX2FW"
+                  " https://drive.google.com/uc?export=view&id=11HnX1eaYdVMlOIuSj7E8XGZJ9meyX2FW"
                 }
               />
             </div>

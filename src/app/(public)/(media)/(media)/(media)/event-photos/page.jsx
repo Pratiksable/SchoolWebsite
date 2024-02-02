@@ -7,7 +7,7 @@ const EventPhotos = () => {
     <section className="my-6">
       <div className="max-w-screen-xl mx-auto container p-3">
         <div className="w-full mb-20">
-          <Heading2 headingText={"College Photos"} />
+          <Heading2 headingText={"Event Photos"} />
           
 
         </div>
