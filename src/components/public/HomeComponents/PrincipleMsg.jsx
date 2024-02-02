@@ -78,7 +78,7 @@ const PrincipleMsg = () => {
             className="text-5xl text-slate-400"
             icon={faQuoteLeft}
           />
-          <p className="text-center">{currentPrinciple.message}</p>
+          <p className="text-justify">{currentPrinciple.message}</p>
           <div className="text-right my-4">
             <p className="font-semibold">{currentPrinciple.name}</p>
           </div>

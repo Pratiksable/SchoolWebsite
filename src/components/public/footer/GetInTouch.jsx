@@ -7,11 +7,20 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const GetInTouch = () => {
-  const address = ` 5HF5+FMP, Unnamed Road, Rajanukunte, Karnataka 560064`;
-  const emails = ["principle-mcc@example.com", "help@example.com"];
-  const phoneNumbers = ["+918888888888", `+911234567899`];
+  const contactInfo = [
+    { name: "Principal", email: "principle-puc@example.com", department: "Administration" },
+    // { name: "Customer Support", email: "help@example.com", department: "Customer Service" },
+  ];
 
-  
+  const address = ` 5HF5+FMP, Unnamed Road, Rajanukunte, Karnataka 560064`;
+
+  const phoneNumbers = [
+    { name: "Mr Karthik Ankar", number: "+919342736575", department: "Govt PU college" },
+    { name: "Mr. Kantaraju B G", number: `+919845917244`, department: "Govt High School" },
+    { name: "Mr Shreenivasa G", number: `+917204602103`, department: "Govt Primary School" },
+    { name: "Mr. Rajendra Kumar R C", number: `+919901773645`, department: "BOG" },
+  ];
+
   return (
     <>
       <Heading3 headingText={"Get in touch"} />
@@ -33,13 +42,14 @@ const GetInTouch = () => {
             icon={faEnvelope}
           />
           <p>
-            {emails.map((email) => (
+            {contactInfo.map(({ name, email, department }) => (
               <a
                 key={email}
                 className="block hover:text-primary-regular hover:underline duration-500"
                 href={`mailto:${email}`}
+                title={`${department}`}
               >
-                {email}
+                {name}: {email}
               </a>
             ))}
           </p>
@@ -47,15 +57,19 @@ const GetInTouch = () => {
 
         {/* ======== Mobile Numbers======  */}
         <div className="flex items-center gap-4">
-          <FontAwesomeIcon className="text-4xl text-primary-regular" icon={faPhone} />
+          <FontAwesomeIcon
+            className="text-4xl text-primary-regular"
+            icon={faPhone}
+          />
           <p>
-            {phoneNumbers.map((phoneNumber) => (
+            {phoneNumbers.map(({ name, number, department }) => (
               <a
-                key={phoneNumber}
+                key={number}
                 className="block hover:text-primary-regular hover:underline duration-500"
-                href={`tel:${phoneNumber}`}
+                href={`tel:${number}`}
+                title={`Department: ${department}`}
               >
-                {phoneNumber}
+                {name}: {number}
               </a>
             ))}
           </p>

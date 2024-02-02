@@ -32,7 +32,7 @@ const Features = () => {
           heading={"Achievement"}
           link={"#"}
           text={
-            "Since its founding on February 10, 1974 by B.D. Jaiswal, we have consistently excelled, fostering success and making a significant impact in our field"
+            "Learn from accomplished professionals who bring extensive experience and deep knowledge to provide top-quality education and guidance."
           }
         />
       </div>

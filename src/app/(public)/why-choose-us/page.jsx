@@ -13,7 +13,9 @@ const WhyChooseUs = () => {
   return (
     <article className="max-w-screen-lg mx-auto p-4">
       <h1 className="text-primary-regular text-2xl font-bold">
-        Why Choose Us - GOVERNMENT PU COLLEGE
+
+        Why Choose Us - GOVERNMENT PU COLLEGE RAJANAKUNTE
+
       </h1>
 
       <div className="border-t-4 border-primary-regular p-4 shadow-lg my-4 rounded-md">

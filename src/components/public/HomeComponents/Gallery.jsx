@@ -32,7 +32,7 @@ const Gallery = () => {
                 width={250}
                 height={150}
                 src={
-             image1
+" https://drive.google.com/uc?export=view&id=11HnX1eaYdVMlOIuSj7E8XGZJ9meyX2FW"
                 }
               />
             </div>
@@ -43,7 +43,7 @@ const Gallery = () => {
                 width={250}
                 height={150}
                 src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1wrDV8r1zw7c5k0S3BlPMGhGFemXmJuu1WaGJpj_L_S4wzUKU8Fl7RtNS496KsBXxlJSRiAzrEY8xmWQ2ym85-nW0r0Y1LV2qMIrcrVCnnrlHCq_SnjB_zcovChU9dv8JV2IHXqxCkZLk58cwQR0VhUTzwvWfLG64d9kKOLnjakvh4Ze8G_0eWWMlGqk/s320/Independence_day_Events.jpg"
+                  "https://drive.google.com/uc?export=view&id=10nb_EF_cdRvkTEop22sTElQJcwxxuoQT"
                 }
               />
             </div>
@@ -52,7 +52,7 @@ const Gallery = () => {
                 alt="gallery"
                 className="w-full h-60 lg:h-80 object-cover object-center block"
                 src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdlplNPgVlO30DeAS6HvdsU_FAH52iUkdHAwSjD4NlRfEH-8ZGI97JqReobEHlppsLrG8I6ZkeL09VaHXhWHFuAR0rmsWMAbL-8AveEUilBIF79ByB-keGppHYffovcxHwN6mnUJqi2bvStoEer8vmILwwZYtVGbEnBQoAk39w0ir7KACsAbnEOuE_r8/s1360/ncc.jpg"
+                  "https://drive.google.com/uc?export=view&id=1zKhfwZTQlk1yXYE5YnjhKOeKSRbpP_mq"
                 }
                 width={500}
                 height={300}
@@ -66,7 +66,7 @@ const Gallery = () => {
                 alt="gallery"
                 className="w-full h-60 lg:h-80 object-cover object-center block"
                 src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy0tv-B__tMoaNlAkTTM1pYeuUF0zaJf7FgMZ0a5cmD41xStwa3jKQfXbgmc_KITbdr91lydt21EJAS3dkCyljzAPL_rti6g6zCT602sL9nqgiUksEELM5cST_9Er2k4MX9LhJsTCmJoFr91Gd5oT5YU-X9QaU6Or1mNEZ3WCnCUYspdp28B2kGGvwaC0/s320/Republicday.webp"
+                  "https://drive.google.com/uc?export=view&id=1P8w94bP8cdIRMJie2E6BY95YpEXrYhL9"
                 }
                 height={300}
                 width={500}
@@ -78,7 +78,7 @@ const Gallery = () => {
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
                 src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSBKafvV8nrodbFjlujrlY18D3ZMvb7nEVdxRUBhCSg45job3b6aCNEL5p1_WLsGzWJ655qEpL13jrI4askHs9T9TkqNJyCL5jBXUy5-fyq1xuvFPldFT7SbPqkUXGHT3LqbJ8TbLD34eg-8OUlIXEgIyhGPmSnrisfIk-a822jvnFOUXcWkv0_J-ywuk/s720/Laboratory.jpg"
+                  "https://drive.google.com/uc?export=view&id=13X0Q2EyUz9_0iA2Omhuk6YoDqFuwwCTB"
                 }
                 width={250}
                 height={150}
@@ -89,7 +89,7 @@ const Gallery = () => {
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
                 src={
-                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDMUORQ4f5blgmXQUYnnZAicB2DX7vDNI8unGjnaC96VwitidpG8Zh4Sp2_uvXEp38y4BpmEXuho7vODwVtVZm-cAkm0ngwQgMnNi3TcHnTUEmfiqKN0b8_DeFavv70xy8vaG2wqelEZu1-ufQ_kCieXDxWuyblgK8IQOaGFp4Uwiy0Rr3gjg8gEn8iPU/s720/MCC_Events.jpg"
+                  "https://drive.google.com/uc?export=view&id=1VcgF8r5A4h5lIYTsGW0L2tASYl9UPhtG"
                 }
                 width={250}
                 height={150}
