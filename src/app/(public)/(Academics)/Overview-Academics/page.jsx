@@ -14,7 +14,7 @@ const Overview = () => {
       {overviewAcademicsData.map((data, index) => (
         <div key={index}>
           <Heading2 headingText={data.collegetype} />
-          <p className="mb-4">{data.desc}</p>
+          <p className="mb-4 text-justify">{data.desc}</p>
         </div>
       ))}
 

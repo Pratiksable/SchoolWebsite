@@ -10,7 +10,7 @@ const Footer = () => {
         {/* ====== Logo ======== */}
         <div className="col-span-3">
           <Image
-            className="max-w-full invert self-center mx-auto"
+            className="max-w-full rounded-lg self-center mx-auto"
             src="/images/Logo.jpg"
             alt="logo"
             height={150}

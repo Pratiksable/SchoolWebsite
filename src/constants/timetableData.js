@@ -1,12 +1,8 @@
 // timetableData.js
-export const timetableData = [
-  {
-    day: "Monday",
-    periods: ["Math", "Science", "English", /* Add more periods as needed */],
-  },
-  {
-    day: "Tuesday",
-    periods: ["History", "Geography", "Physics", /* Add more periods as needed */],
-  },
-  // Add more days as needed
+const timetableData = [
+  { image: "https://drive.google.com/uc?export=view&id=1livs8s6m_ebk8zkP0xC1wkXuFxBR0nYU" },     // Replace with the actual image path
+  { image: "https://drive.google.com/uc?export=view&id=1ndHqGEqbAoqegnKBNYKpMYtuRNuCWVrM" }, // Replace with the actual image path
+  { image: "https://drive.google.com/uc?export=view&id=1id_2nK0PMQtAXyHoGqJ9ZC6WMmDhQXrk" }, // Replace with the actual image path
 ];
+
+export { timetableData };

@@ -17,9 +17,9 @@ const Highlights = () => {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <Highlight
             icon={faGraduationCap}
-            heading={"UGC Recog. Program"}
+            heading={"Holistic Development"}
             text={
-              "Our courses lead to degrees from Vinoba Bhave University, UGC recognized and widely accepted. Open doors to diverse career opportunities in pvt, Gov & MNCs."
+              "Engage in a well-rounded education that focuses not only on academics but also on personal growth, character development, and extracurricular activities."
             }
           />
           <Highlight
@@ -52,9 +52,9 @@ const Highlights = () => {
           />
           <Highlight
             icon={faUniversity}
-            heading={"UGC Recognition"}
+            heading={"Career Support"}
             text={
-              "Rest assured knowing that our college is recognized by the University Grants Commission (UGC), ensuring the quality and credibility of your education"
+              "Benefit from dedicated career services that offer internships, placements, and networking opportunities to kick-start your professional journey."
             }
           />
         </div>

@@ -1,35 +1,6 @@
-const ImportantLink = () => {
-  const impLinks = [
-    {
-      text: "» E-Kalyan Scholarship",
-      path: "https://ekalyan.cgg.gov.in/",
-    },
-    {
-      text: "» Exam Form - vbunuiv.in",
-      path: "https://www.vbuuniv.in/vbuexamform/login",
-    },
-    {
-      text: "» Vinoba Bhave University (VBU)",
-      path: "http://vbu.ac.in/",
-    },
-    {
-      text: "» Download Admit Card - vbunuiv.in",
-      path: "https://www.vbuuniv.in/login",
-    },
-    {
-      text: "» Academic Bank of Credits (abc id)",
-      path: "https://www.abc.gov.in/",
-    },
+import { impLinks } from "@/constants/notice";
 
-    {
-      text: "» Check Result - vbunuiv.in",
-      path: "http://result.vbuuniv.in/vbuuniv/student/result/pg/preview",
-    },
-    {
-      text: "» University Grants Commission (UGC)",
-      path: "https://www.ugc.ac.in/",
-    },
-  ];
+const ImportantLink = () => {
   return (
     <div className="grid my-4">
       {impLinks.map((link, index) => (

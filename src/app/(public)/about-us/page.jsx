@@ -2,58 +2,14 @@ import Heading2 from "@/components/Heading2";
 import CollegeAddress from "@/components/public/CollegeAddress";
 import CoursesWeOffer from "@/components/public/CoursesWeOffer";
 import GetInTouch from "@/components/public/footer/GetInTouch";
-
+import CollegeInformation from "@/constants/CollegeInformation";
 export const metadata = {
   title: "About Us - The Government PU college, Rajanakunte",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "lorem",
 };
 
 const AboutUs = () => {
-  const FACILITY_KEYWORDS = [
-    "Library",
-    "Sports",
-    "Laboratories",
-    "Internet",
-    "Bank / ATMClassroom",
-    "Placement",
-    "Scholarship",
-    "Workshop",
-    "Wi-Fi",
-    "Playground",
-    "Reading Rooms",
-    "Multipurpose Hall",
-    "Conference Hall",
-    "N.C.C.",
-    "N.S.S.",
-    "Medical Facility",
-    "Counseling Centre",
-    "Common Rooms",
-    "Computer Lab",
-    "Cafeteria/Canteen",
-    "Anti Ragging",
-    "Women Cell",
-  ];
-
-  const COLLEGE_INFO = [
-    {
-      title: "Type Of College",
-      value: "Government",
-    },
-    {
-      title: "Accreditation & Recognition",
-      value: "Government",
-    },
-    {
-      title: "Established",
-      value: "2023",
-    },
-    {
-      title: "Affiliation",
-      value: "Government Of Karnataka",
-    },
-  ];
-
   return (
     <div className="max-w-screen-lg mx-auto py-4 px-2">
       <h1 className="text-3xl font-semibold my-8">
@@ -62,7 +18,7 @@ const AboutUs = () => {
       <CollegeAddress />
 
       <div className="grid gap-4 sm:grid-cols-2 my-4">
-        {COLLEGE_INFO.map((info, index) => (
+        {CollegeInformation.map((info, index) => (
           <div className="p-2" key={index}>
             <h4 className="text-xl font-bold text-primary-regular">
               {info.title}
@@ -77,56 +33,34 @@ const AboutUs = () => {
 
         <p>
           <span className="text-primary-regular">
-            Markham College of Commerce,
+          Government PU College,
           </span>{" "}
-          Hazaribagh was established
-          <span className="text-primary-regular"> on 10th February 1974.</span>
+          Rajanakunte was established
+          <span className="text-primary-regular"> on 2024.</span>
         </p>
         <p>
-          It is one of the premier institutions established to impart & provide
-          in the field of higher education for the deserving candidates and
-          prove to be a milestone in the part of progress.
+        Welcome to Government PU College, Rajanakunte, a distinguished institution committed to fostering academic excellence and holistic development. Established with a vision to provide quality education, our college has been a beacon of learning in the region since its inception.
         </p>
         <p>
-          The college is presently affiliated with Vinoba Bhave University,
-          Hazaribag and therefore it is a constituent part of this university
-          and recognized by the University Grants Commission (UGC) under section
-          2(f) on 25th June 1997 & 12(B) on 21st March 2012 under Act, 1956.
+        Founded with a commitment to empower students with knowledge and skills, Government PU College, Rajanakunte, has been a cornerstone of educational progress. The college is affiliated with [mention the university or education board it is affiliated with], ensuring that our academic programs adhere to the highest standards.
         </p>
         <p>
-          It is accredited by National Assessment and Accreditation Council
-          (NAAC) with &quot;B&quot; Grade - (CGPA Score 2.32 on a 4 Point Scale
-          in 1st Cycle) on 22nd February 2017.
+        Our college boasts modern infrastructure, equipped with state-of-the-art classrooms, laboratories, and libraries to facilitate a conducive learning environment. We understand the importance of comprehensive development; thus, we provide students with access to various co-curricular and extracurricular activities.
         </p>
         <p>
-          Mr. B. D. Jaiswal, the renowned industrialists, and business tycoon
-          were its founder chairman and Late Rameshwar Prasad (Ram Babu) Ex-MLC
-          was the founder secretary.
+        At Government PU College, Rajanakunte, we take pride in our team of experienced and dedicated faculty members. These educators are not only experts in their respective fields but are also passionate about nurturing the potential within each student. Their guidance and mentorship play a pivotal role in shaping the future of our students.
         </p>
         <p>
-          Later, the most reverend word of this place ‘Markham’ was added and
-          accepted to the name of this college to pay obeisance to the long and
-          noble services that were being imparted by this Irish Pastor Mr. A. F.
-          Markham who was the longest serving Principal of St. Columba’s
-          College, Hazaribag and later the Vice-chancellor of Ranchi University,
-          Ranchi.
+        The college offers a range of academic programs, including courses in Arts, Science, and Commerce. Our curriculum is designed to provide a well-rounded education, preparing students for future challenges and opportunities.
         </p>
         <p>
-          At the time of the foundation of this college Dr. Maheshwar Tiwari,
-          who as a founder Principal and Prof-in-charge of the college took a
-          noble initiative with a short but dedicated team.
+        Government PU College, Rajanakunte, is committed to maintaining the highest standards of academic excellence, discipline, and values. We strive to create an inclusive and engaging learning environment that empowers students to excel in both academics and character.
         </p>
         <p>
-          In 1974, the 1st session of Intermediate Arts and Commerce started and
-          in the year 1977 Ranchi University, Ranchi awarded affiliation for the
-          subjects Hindi, English, Sanskrit, History, Economics, Political
-          Science, Philosophy and Commerce up to degree level.
+        As an integral part of the community, our college actively engages in various community service initiatives and events. We believe in instilling a sense of social responsibility in our students, encouraging them to contribute positively to society.
         </p>
         <p>
-          The college offers three years undergraduate courses in Arts, Science,
-          Commerce, & Management streams under Vinoba Bhave University,
-          Hazaribag. The college is also providing Honours teaching in
-          vocational subjects.
+        Join us at Government PU College, Rajanakunte, where education is not just a journey but a transformative experience. Together, let's build a future filled with knowledge, skills, and endless possibilities.
         </p>
 
         
