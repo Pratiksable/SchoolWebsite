@@ -18,7 +18,7 @@ const VisionMission = () => {
           src={image3}
           width={1000}
           height={500}
-          alt="Markham College of Commerce"
+          alt="GOVERNMENT PU college of Commerce"
         />
 
         <div className="container mx-auto p-8">
@@ -35,7 +35,7 @@ const VisionMission = () => {
           <div className="mb-8 text-lg">
             <h2 className="text-xl font-semibold mb-2">History and Founding</h2>
             <p className="text-gray-700">
-              Markham College of Commerce, Hazaribagh, was established on
+              GOVERNMENT PU college of Commerce, Hazaribagh, was established on
               February 10, 1974, under the visionary leadership of B. D.
               Jaiswal. Named after the esteemed educationist Arthur Francis
               Markham, the college&apos;s founding principles were rooted in

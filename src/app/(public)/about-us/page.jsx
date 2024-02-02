@@ -6,7 +6,7 @@ import GetInTouch from "@/components/public/footer/GetInTouch";
 export const metadata = {
   title: "About Us - The Government PU college, Rajanakunte",
   description:
-    "Markham College of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+    "GOVERNMENT PU college of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
 };
 
 const AboutUs = () => {
@@ -77,7 +77,7 @@ const AboutUs = () => {
 
         <p>
           <span className="text-primary-regular">
-            Markham College of Commerce,
+            GOVERNMENT PU college of Commerce,
           </span>{" "}
           Hazaribagh was established
           <span className="text-primary-regular"> on 10th February 1974.</span>
@@ -107,7 +107,7 @@ const AboutUs = () => {
           Later, the most reverend word of this place ‘Markham’ was added and
           accepted to the name of this college to pay obeisance to the long and
           noble services that were being imparted by this Irish Pastor Mr. A. F.
-          Markham who was the longest serving Principal of St. Columba’s
+          GOVERNMENT PU COLLEGEwho was the longest serving Principal of St. Columba’s
           College, Hazaribag and later the Vice-chancellor of Ranchi University,
           Ranchi.
         </p>

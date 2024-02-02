@@ -154,7 +154,7 @@ const UgPrograms = () => {
       {/* // Courses We Offer */}
       <Heading2 headingText={"Exploring UG Courses"} />
       <p className="my-8">
-        At Markham College of Commerce, we offer a variety of UG courses
+        At GOVERNMENT PU college of Commerce, we offer a variety of UG courses
         designed to meet the diverse interests of our students.
       </p>
       <div className="max-w-full overflow-hidden">
@@ -186,7 +186,7 @@ const UgPrograms = () => {
               Commerce (B.com)
             </h3>
             <p className="text-slate-600 mb-4">
-              Markham College of Commerce offers a range of B.Com courses,
+              GOVERNMENT PU college of Commerce offers a range of B.Com courses,
               providing students with a solid foundation in commerce and
               business practices
             </p>
@@ -217,14 +217,14 @@ const UgPrograms = () => {
       <div className="mb-10">
         <Heading3 headingText={"Empowering Your Academic Journey"} />
         <p className="my-4">
-          At Markham College of Commerce, our UG courses are designed to foster
+          At GOVERNMENT PU college of Commerce, our UG courses are designed to foster
           intellectual growth, critical thinking, and holistic development. We
           believe in nurturing well-rounded individuals who are not only experts
           in their chosen fields but also responsible citizens and leaders.
         </p>
         <p className="my-4">
           With dedicated faculty, modern facilities, and a vibrant campus
-          community, Markham College of Commerce is your gateway to pursuing
+          community, GOVERNMENT PU college of Commerce is your gateway to pursuing
           your passions and achieving academic excellence in your UG journey.
         </p>
       </div>

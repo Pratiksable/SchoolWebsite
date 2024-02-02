@@ -13,12 +13,12 @@ const WhyChooseUs = () => {
   return (
     <article className="max-w-screen-lg mx-auto p-4">
       <h1 className="text-primary-regular text-2xl font-bold">
-        Why Choose Us - Markham college of commerce
+        Why Choose Us - GOVERNMENT PU COLLEGE
       </h1>
 
       <div className="border-t-4 border-primary-regular p-4 shadow-lg my-4 rounded-md">
         <Heading2 headingText={"Why choose us"} />
-        <div className="grid gap-4 text-xl my-4 px-2">
+        <div className="grid gap-4 text-xl my-4 px-2 text-justify">
           <p>
             <span className="text-4xl font-bold text-primary-regular">T</span>he
             college has a vibrant campus life with a wide range of opportunities

@@ -115,13 +115,13 @@ const PgProgram = () => {
   return (
     <article className="overflow-hidden sm:text-lg">
       <h1 className="text-xl sm:text-2xl font-bold my-2">
-        Postgraduate Courses at Markham College of Commerce, Hazaribagh
+        Postgraduate Courses at GOVERNMENT PU COLLEGE of Commerce, Hazaribagh
       </h1>
       <hr />
 
       <p className="text-lg mt-4">
         <span className="text-4xl text-primary-regular font-bold">A</span>t
-        Markham College of Commerce, we are committed to providing a
+        GOVERNMENT PU COLLEGE , we are committed to providing a
         comprehensive education that extends beyond undergraduate programs. Our
         range of Postgraduate (PG) courses is designed to cater to diverse
         academic interests, empowering students to specialize in their chosen
@@ -226,7 +226,7 @@ const PgProgram = () => {
       <section className="my-8">
         <Heading3 headingText={"Empowering Your Academic Journey"} />
         <p className="my-4">
-          Markham College of Commerce is dedicated to nurturing scholars who are
+          GOVERNMENT PU college of Commerce is dedicated to nurturing scholars who are
           not only well-versed in their fields but also equipped with the
           critical thinking skills and ethical values necessary for a holistic
           education. Our PG courses combine rigorous academic training with
@@ -235,7 +235,7 @@ const PgProgram = () => {
         </p>
         <p className="my-4">
           With a commitment to academic excellence, renowned faculty, and a
-          supportive learning environment, Markham College of Commerce is your
+          supportive learning environment, GOVERNMENT PU college of Commerce is your
           gateway to achieving your postgraduate aspirations.
         </p>
       </section>

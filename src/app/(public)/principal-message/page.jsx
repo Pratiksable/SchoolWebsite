@@ -11,7 +11,7 @@ const PrinciplesMessage = () => {
   return (
     <article className="max-w-screen-lg mx-auto">
       <h1 className="text-xl font-bold text-primary-regular my-4">
-        Principal&apos;s Message - Markham College of commerce
+        Principal&apos;s Message - GOVERNMENT PU college of commerce
       </h1>
       <div>
         <PrincipleMsg />
