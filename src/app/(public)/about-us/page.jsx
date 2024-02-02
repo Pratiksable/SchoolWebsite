@@ -6,7 +6,9 @@ import CollegeInformation from "@/constants/CollegeInformation";
 export const metadata = {
   title: "About Us - The Government PU college, Rajanakunte",
   description:
-    "lorem",
+
+    "GOVERNMENT PU college of Commerce, Hazaribagh was established on 10th February 1974. It is one of the premier institutions established to impart & provide in the field of higher education for the deserving candidates and prove to be a milestone in the part of progress.",
+
 };
 
 const AboutUs = () => {
@@ -33,7 +35,9 @@ const AboutUs = () => {
 
         <p>
           <span className="text-primary-regular">
+
           Government PU College,
+
           </span>{" "}
           Rajanakunte was established
           <span className="text-primary-regular"> on 2024.</span>
@@ -51,7 +55,9 @@ const AboutUs = () => {
         At Government PU College, Rajanakunte, we take pride in our team of experienced and dedicated faculty members. These educators are not only experts in their respective fields but are also passionate about nurturing the potential within each student. Their guidance and mentorship play a pivotal role in shaping the future of our students.
         </p>
         <p>
+
         The college offers a range of academic programs, including courses in Arts, Science, and Commerce. Our curriculum is designed to provide a well-rounded education, preparing students for future challenges and opportunities.
+
         </p>
         <p>
         Government PU College, Rajanakunte, is committed to maintaining the highest standards of academic excellence, discipline, and values. We strive to create an inclusive and engaging learning environment that empowers students to excel in both academics and character.

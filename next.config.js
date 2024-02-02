@@ -17,6 +17,11 @@ module.exports = {
         protocol: "https",
         hostname: "photos.app.goo.gl",
       },
+      {
+        protocol: "https",
+        hostname: "www.youtube.com",
+      },
+
       // Add more domains if needed
     ],
   },

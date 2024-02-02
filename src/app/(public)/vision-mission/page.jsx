@@ -22,8 +22,8 @@ const VisionMission = () => {
           className="mx-auto block max-w-full"
           src={imagePath}
           width={1000}
-          height={100}
-          alt={altText}
+          height={500}
+          alt="Markham College of Commerce"
         />
 
         <div className="container mx-auto p-8">
@@ -41,8 +41,21 @@ const VisionMission = () => {
 
           <div className="mb-8 text-lg">
             <h2 className="text-xl font-semibold mb-2">History and Founding</h2>
-            <p className="text-gray-700 text-justify">{historyFoundingText.history}</p>
-            <p className="text-gray-700 text-justify">{historyFoundingText.founding}</p>
+            <p className="text-gray-700">
+              Markham College of Commerce, Hazaribagh, was established on
+              February 10, 1974, under the visionary leadership of B. D.
+              Jaiswal. Named after the esteemed educationist Arthur Francis
+              Markham, the college&apos;s founding principles were rooted in
+              making higher education accessible to the region&apos;s aspiring
+              minds.
+            </p>
+            <p className="text-gray-700">
+              Dr. Maheshwar Tiwari, alongside a dedicated team of educators
+              including Prof. Shashi Kishore Narayan, Prof. Heyat Ahmed, and
+              others, embarked on a journey to offer Intermediate Arts and
+              Commerce programs. This marked the inception of a lifelong
+              commitment to providing quality education to the community.
+            </p>
           </div>
 
           <div className="mb-8 text-lg">

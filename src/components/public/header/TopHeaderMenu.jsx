@@ -1,7 +1,5 @@
-import Link from "next/link";
-import Button from "../../Button";
+"use client"
 import SocialMediaLink from "../../SocialMediaLink";
-import Image from "next/image";
 
 const TopHeaderMenu = () => {
   return (
@@ -10,12 +8,12 @@ const TopHeaderMenu = () => {
         <h2 className="text-md hidden md:block">
           Welcome to The Government PU college, Rajanakunte
         </h2>
-    
+       
         <div className="hidden md:block">
           <SocialMediaLink />
-         
         </div>
       </div>
+      
     </div>
   );
 };
