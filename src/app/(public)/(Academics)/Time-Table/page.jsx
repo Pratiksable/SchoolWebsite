@@ -1,5 +1,6 @@
 // Timetable.js
 import React from 'react';
+import Image from 'next/image';
 import Heading2 from "@/components/Heading2";
 import { timetableData } from '@/constants/timetableData';
 
@@ -15,7 +16,10 @@ const Timetable = () => {
       <div className="flex flex-wrap">
         {timetableData.map((day, index) => (
           <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-            <img src={day.image} alt={`Timetable for ${day.day}`} className="w-full h-auto" />
+            <Image src={day.image} alt={`Timetable for ${day.day}`} className="w-full h-auto"
+            width={100}
+            height={100}
+            />
           </div>
         ))}
       </div>
