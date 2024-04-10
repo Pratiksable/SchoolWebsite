@@ -1,57 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our School Website Project</title>
-</head>
-<body>
-    <h1 align="center">:school: Our School Website :school:</h1>
-    
-    <h2>Objective</h2>
-    <p>The objective of this project is to develop a comprehensive website for our school to improve communication, provide information, and enhance engagement with students, parents, teachers, and the community.</p>
+<h1 align="center">:school: School Website Project :school:</h1>
 
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#how-to-run">How To Run</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-    </ul>
+Welcome to the School Website Project repository! This project aims to develop a comprehensive website for our school, providing essential features for students, teachers, parents, and administrators.
 
-    <h2 id="introduction">Introduction</h2>
-    <p>Welcome to the project page for our school website project. Our goal is to create a user-friendly and informative website that serves as a central hub for all things related to our school.</p>
-    
-    <h2 id="features">Features</h2>
-    <p>Our school website will include the following features:</p>
-    <ul>
-        <li>Announcements and news updates</li>
-        <li>Information about academic programs, extracurricular activities, and events</li>
-        <li>Faculty and staff directory</li>
-        <li>Resources for students and parents</li>
-        <li>Photo galleries showcasing school events and achievements</li>
-    </ul>
-    
-    <h2 id="requirements">Requirements</h2>
-    <p>To run this project, you need:</p>
-    <ul>
-        <li>A modern web browser</li>
-        <li>An internet connection</li>
-    </ul>
-    
-    <h2 id="how-to-run">How To Run</h2>
-    <p>This website is accessible through any web browser. Simply navigate to the URL of our school's website to access the content.</p>
-    
-    <h2 id="contributors">Contributors</h2>
-    <p>Special thanks to the following contributors for their efforts in developing our school website:</p>
-    <ul>
-        <li>John Doe</li>
-        <li>Jane Smith</li>
-        <li>RAGHAV KUMAR JHA</li>
-        <li>KRISHNA GUPTA</li>
-        <li>PRATIK SABLE</li>
-        <li>KRISH GUPTA</li>
-    </ul>
-</body>
-</html>
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [How To Run](#how-to-run)
+- [Screenshots](#screenshots)
+- [Contributors](#contributors)
+
+
+### Frontend (HTML/CSS/JavaScript)
+
+1. **Prerequisites**:
+   - Ensure you have a modern web browser installed on your machine.
+
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/school-website.git
+
+3. **Navigate to the Frontend Directory**:
+    ```bash
+    cd school-website/frontend
+
+## Features
+
+1. **Homepage**: Create an interactive homepage showcasing essential information about the school, upcoming events, and news updates.
+
+2. **About Us**: Provide detailed information about the school's history, mission, vision, and facilities.
+
+3. **Academics**: Present academic programs, courses offered, curriculum details, and faculty information.
+
+4. **Admissions**: Offer resources and guidelines for prospective students and parents regarding the admission process, eligibility criteria, and important dates.
+
+5. **Gallery**: Display a gallery of images showcasing various school events, activities, and achievements.
+
+6. **Contact Us**: Include contact information and a contact form for inquiries, feedback, and support.
+
+7. **Student Portal**: Develop a secure portal for students to access academic resources, assignments, grades, and communicate with teachers.
+
+8. **Parent Portal**: Implement a parent portal for parents to monitor their child's academic progress, communicate with teachers, and access school announcements.
+
+9. **Teacher Portal**: Create a dedicated portal for teachers to manage class schedules, assignments, grades, and communicate with students and parents.
+
+10. **Administrative Dashboard**: Design an administrative dashboard for school administrators to manage student records, staff information, attendance, and generate reports.
+
+## Screenshots
+
+<div align="center">
+    <!-- Add screenshots of your school website here -->
+    <img width="200" src="./images/homepage.jpg"> 
+    <img width="200" src="./images/about-us.jpg">  
+    <img width="200" src="./images/gallery.jpg"> 
+    <img width="200" src="./images/contact-us.jpg">    
+    <img width="200" src="./images/student-portal.jpg">
+    <img width="200" src="./images/admin-dashboard.jpg">
+</div>
+
+[Google Drive Link for Additional Screenshots](https://drive.google.com/drive/folders/your-folder-link)
+
+## Contributors
+<center>
+  <table>
+      <td align="center">
+        <a href="https://github.com/your-username">
+          <!-- Add your GitHub profile picture here -->
+          <img width="100" src="https://avatars.githubusercontent.com/your-profile-picture-link" alt="Your Name"><br/>
+          <sub><b>Your Name</b></sub>
+        </a>
+      </td>
+      <!-- Add more contributors if necessary following the same format -->
+  </table>
+</center>
+
+If you'd like to contribute to our school website project, feel free to clone the repository and submit your pull requests!
