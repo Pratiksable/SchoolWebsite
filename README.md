@@ -19,7 +19,7 @@ Welcome to the School Website Project repository! This project aims to develop a
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/school-website.git
+   git clone https://github.com/Pratiksable/SchoolWebsite.git
 
 3. **Navigate to the Frontend Directory**:
     ```bash
@@ -48,6 +48,11 @@ Welcome to the School Website Project repository! This project aims to develop a
           <!-- Add your GitHub profile picture here -->
           <img width="100" src="https://avatars.githubusercontent.com/u/88896059?s=400&u=77fb4dc304bd1cf4756bbcd440e67213935891e0&v=4" alt="Your Name"><br/>
           <sub><b>Pratik Sable</b></sub>
+        </a>
+          <a href="https://github.com/Kr1sh-gupta">
+          <!-- Add your GitHub profile picture here -->
+          <img width="100" src="https://avatars.githubusercontent.com/u/73186767?v=4" alt="Your Name"><br/>
+          <sub><b>Krish Gupta</b></sub>
         </a>
       </td>
       <!-- Add more contributors if necessary following the same format -->
