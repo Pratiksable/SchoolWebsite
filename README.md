@@ -9,7 +9,6 @@ Welcome to the School Website Project repository! This project aims to develop a
 - [Features](#features)
 - [Requirements](#requirements)
 - [How To Run](#how-to-run)
-- [Screenshots](#screenshots)
 - [Contributors](#contributors)
 
 
@@ -40,36 +39,15 @@ Welcome to the School Website Project repository! This project aims to develop a
 
 6. **Contact Us**: Include contact information and a contact form for inquiries, feedback, and support.
 
-7. **Student Portal**: Develop a secure portal for students to access academic resources, assignments, grades, and communicate with teachers.
-
-8. **Parent Portal**: Implement a parent portal for parents to monitor their child's academic progress, communicate with teachers, and access school announcements.
-
-9. **Teacher Portal**: Create a dedicated portal for teachers to manage class schedules, assignments, grades, and communicate with students and parents.
-
-10. **Administrative Dashboard**: Design an administrative dashboard for school administrators to manage student records, staff information, attendance, and generate reports.
-
-## Screenshots
-
-<div align="center">
-    <!-- Add screenshots of your school website here -->
-    <img width="200" src="./images/homepage.jpg"> 
-    <img width="200" src="./images/about-us.jpg">  
-    <img width="200" src="./images/gallery.jpg"> 
-    <img width="200" src="./images/contact-us.jpg">    
-    <img width="200" src="./images/student-portal.jpg">
-    <img width="200" src="./images/admin-dashboard.jpg">
-</div>
-
-[Google Drive Link for Additional Screenshots](https://drive.google.com/drive/folders/your-folder-link)
 
 ## Contributors
 <center>
   <table>
       <td align="center">
-        <a href="https://github.com/your-username">
+        <a href="https://github.com/Pratiksable">
           <!-- Add your GitHub profile picture here -->
-          <img width="100" src="https://avatars.githubusercontent.com/your-profile-picture-link" alt="Your Name"><br/>
-          <sub><b>Your Name</b></sub>
+          <img width="100" src="https://avatars.githubusercontent.com/u/88896059?s=400&u=77fb4dc304bd1cf4756bbcd440e67213935891e0&v=4" alt="Your Name"><br/>
+          <sub><b>Pratik Sable</b></sub>
         </a>
       </td>
       <!-- Add more contributors if necessary following the same format -->
